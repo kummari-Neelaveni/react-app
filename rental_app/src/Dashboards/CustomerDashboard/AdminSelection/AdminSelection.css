@@ -1,0 +1,100 @@
+/* Container */
+.admin-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+  padding: 40px 5%;
+  background-color: #f0f4f8;
+  min-height: fit-content;
+  box-sizing: border-box;
+}
+
+/* Card */
+.admin-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px solid #0b2545; /* navy border */
+}
+
+.admin-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(11, 37, 69, 0.3);
+  border-color: #f5c518; /* bright yellow on hover border */
+}
+
+/* Admin Name */
+.admin-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  color: #0b2545; /* navy blue */
+  font-weight: 700;
+}
+
+/* Paragraphs */
+.admin-card p {
+  margin: 6px 0;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Materials Section */
+.materials-section {
+  margin-top: 16px;
+  background-color: #fff8d6; /* soft pale yellow background */
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #f5c518; /* bright yellow border */
+}
+
+/* Each material info */
+.material-info {
+  background-color: #f5c518; /* bright yellow background */
+  color: #0b2545; /* navy text */
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(11, 37, 69, 0.15);
+}
+
+.material-info p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+/* Button */
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #0b2545; /* navy blue */
+  color: #f5c518; /* bright yellow */
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f5c518; /* yellow background */
+  color: #0b2545; /* navy text */
+  box-shadow: 0 4px 12px rgba(245, 197, 24, 0.6);
+}
+
+/* Loading and no-data */
+.loading,
+.no-data {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #0b2545; /* navy */
+  padding: 60px 20px;
+}
+
+
+
