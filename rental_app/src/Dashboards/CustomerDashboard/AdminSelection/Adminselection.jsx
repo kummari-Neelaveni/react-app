@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getDocs, collection } from 'firebase/firestore';
 import { db } from '../../../ConfigFirebase/config';
 import { useNavigate } from 'react-router-dom';
-import './Adminselection.css';
+import './AdminSelection.css';
 
 const Adminselection = () => {
   const [admins, setAdmins] = useState([]);
