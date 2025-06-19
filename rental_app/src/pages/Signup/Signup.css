@@ -71,3 +71,45 @@
     transform: translateY(0);
   }
 }
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 10px;
+  }
+
+  .signup-form {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .signup-title {
+    font-size: 1.5rem;
+  }
+
+  .signup-button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup-title {
+    font-size: 1.3rem;
+  }
+
+  .signup-form {
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .signup-button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .signup-form input,
+  .signup-form select {
+    font-size: 0.9rem;
+  }
+}
+
