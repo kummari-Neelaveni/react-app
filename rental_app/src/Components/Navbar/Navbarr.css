@@ -25,3 +25,26 @@
   background-color: white;
 }
 
+
+/* Navbarr.css */
+.nav-btn-custom {
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevent wrapping on small screens */
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav-btn-custom {
+    width: 100%; /* Full width buttons on mobile */
+    text-align: center;
+  }
+
+  .custom-navbar .navbar-title {
+    font-size: 1rem;
+  }
+}
+
